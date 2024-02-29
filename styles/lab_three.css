@@ -9,12 +9,22 @@
 }
 
 iframe{
-    height: 50rem;
+    height:50rem;
+    margin-top: 5rem;
+    border-radius: 5px;
     flex: 1;
 }
 
 @media screen and (min-width: 1200px) {
     iframe{
-        height: 50rem;
+        height: 45rem;
+        max-width: 87%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    iframe{
+        height: 20rem;
+        max-width: 93%;
+    }
+} 
