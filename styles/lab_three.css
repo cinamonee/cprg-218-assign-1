@@ -15,6 +15,13 @@ iframe{
     flex: 1;
 }
 
+@media screen and (max-width: 768px) {
+    iframe{
+        height: 20rem;
+        max-width: 98%;
+    }
+} 
+
 @media screen and (min-width: 1200px) {
     iframe{
         height: 45rem;
@@ -22,9 +29,3 @@ iframe{
     }
 }
 
-@media screen and (max-width: 768px) {
-    iframe{
-        height: 20rem;
-        max-width: 98%;
-    }
-} 
